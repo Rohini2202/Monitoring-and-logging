@@ -54,8 +54,8 @@ docker-compose up
 request_processing_seconds_sum
 ```
 ## Example Metric 
-# HELP request_processing_seconds Time spent processing request
-# TYPE request_processing_seconds summary
+### HELP request_processing_seconds Time spent processing request
+### TYPE request_processing_seconds summary
 request_processing_seconds_sum{...} 0.356
 
 ## Clean Up
